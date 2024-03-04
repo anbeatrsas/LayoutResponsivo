@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div id="loginzinho">
+
+        <h1>Login</h1>
+        <hr />
+        
+        <form method="POST" action="#"><!--Envia o formulário para a url especificada-->
+
+            <label for="usuario">Usuário*</label> <!--Especifica nome do elemento-->
+        
+        <input 
+            type="text" 
+            name="usuario"
+            placeholder="Digite seu nome"
+            id="usuario"
+            required  
+            autocomplete="off"
+        >
+            
+    
+            <label for="senha">Senha</label>
+        <input 
+            type="password" 
+            name="senha" 
+            placeholder="Digite sua senha" 
+            id="senha"
+            required 
+            autocomplete="off"
+        >
+    
+            <button>Logar</button>
+
+
+            <hr />
+
+            <p>Ainda não tem uma conta? 
+                <span>
+                    <a href="cadastro.html">
+                    Cadastra-se agora
+                    </a>
+                </span>
+            </p>
+    
+        </form>
+    </div>
+
+
+
+    <script src="/js/comandos.js"></script>
+
+</body>
+</html>
